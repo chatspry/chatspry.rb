@@ -24,3 +24,8 @@ RSpec.configure do |config|
   end
 
 end
+
+require "support/fixture_configuration"
+require "support/environment_defaults"
+require "support/request_stubs"
+
