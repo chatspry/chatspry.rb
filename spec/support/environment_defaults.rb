@@ -17,3 +17,7 @@ end
 def test_chatspry_client_secret
   ENV.fetch "CHATSPRY_TEST_CLIENT_SECRET", "x" * 32
 end
+
+def test_chatspry_api_endpoint
+  ENV.fetch "CHATSPRY_TEST_API_ENDPOINT", "http://api.chatspry.com"
+end

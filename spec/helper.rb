@@ -3,6 +3,12 @@ require "chatspry"
 require "rspec"
 require "webmock/rspec"
 
+require "support/fixture_configuration"
+require "support/environment_defaults"
+require "support/request_stubs"
+
+ENV["CHATSPRY_API_ENDPOINT"] = test_chatspry_api_endpoint
+
 RSpec.configure do |config|
 
   config.filter_run :focus
@@ -24,10 +30,6 @@ RSpec.configure do |config|
   end
 
 end
-
-require "support/fixture_configuration"
-require "support/environment_defaults"
-require "support/request_stubs"
 
 def oauth_client
   Chatspry::Client.new(:access_token => test_chatspry_token)

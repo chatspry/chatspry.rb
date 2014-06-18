@@ -23,5 +23,5 @@ def stub_put(url)
 end
 
 def chatspry_url(url)
-  url =~ /^http/ ? url : "http://api.chatspry.dev:8080#{url}"
+  url =~ /^http/ ? url : "#{test_chatspry_api_endpoint}#{url}"
 end

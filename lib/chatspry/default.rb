@@ -4,8 +4,8 @@ module Chatspry
 
   module Default
 
-    API_ENDPOINT = "http://api.chatspry.dev:8080".freeze
-    WEB_ENDPOINT = "http://chatspry.dev:4200".freeze
+    API_ENDPOINT = "http://api.chatspry.com".freeze
+    WEB_ENDPOINT = "http://chatspry.com".freeze
 
     MEDIA_TYPE   = "application/json".freeze
     USER_AGENT   = "Chatspry Ruby Gem #{ Chatspry::VERSION }".freeze
