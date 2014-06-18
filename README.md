@@ -4,7 +4,7 @@ API wrapper for Chatspry to be used from any ruby **1.9**, **2.0**
 or **2.1** application. Dependent on the following libraries:
 
 - [Faraday](https://github.com/lostisland/faraday)
-- [Hashie](https://github.com/intridea/hashie).
+- [Hashie](https://github.com/intridea/hashie)
 
 ## Installation
 
