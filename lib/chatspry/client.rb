@@ -25,7 +25,7 @@ module Chatspry
     end
 
     def inspect
-      string = ["<Chatspry::Client:"]
+      string = ["<Chatspry::Client"]
       string << "identifier: #{ @identifier }" if @identifier
       string << "passphrase: #{ "*******" }" if @passphrase
       string << "access_token: #{'*'*56}#{@access_token[56..-1] }" if @access_token
