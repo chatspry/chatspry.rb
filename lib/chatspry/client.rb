@@ -4,8 +4,6 @@ require "chatspry/configurable"
 require "chatspry/authentication"
 require "chatspry/client/user"
 
-require "pry"
-
 module Chatspry
 
   class Client

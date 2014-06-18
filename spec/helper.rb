@@ -2,6 +2,7 @@ require "json"
 require "chatspry"
 require "rspec"
 require "webmock/rspec"
+require "pry"
 
 require "support/fixture_configuration"
 require "support/environment_defaults"
